@@ -1,0 +1,6 @@
+rem удаляет сам себя после работы
+
+:try
+del "C:\DOCUME~1\USER1\LOCALS~1\Temp\prog.exe_"
+if exist "C:\DOCUME~1\USER1\LOCALS~1\Temp\prog.exe_" goto try
+del "del.bat"
